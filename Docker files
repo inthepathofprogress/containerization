@@ -6348,17 +6348,4 @@ EXPOSE 8081
 ENTRYPOINT ["java", "-jar", "app.jar"]
 
 
-
-
-
-
-
-
-
-
-
-
-
-What's next:
-    Debug this Compose error with Gordon → docker ai "help me fix this compose error"
-PS C:\Users\Sudheer\suvida_potato>
+http://localhost:8761/
