@@ -6349,3 +6349,22 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 
 
 http://localhost:8761/
+
+
+PS C:\Users\Sudheer\suvida_potato> docker compose down
+WARN[0000] C:\Users\Sudheer\suvida_potato\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion
+[+] down 11/11
+ ✔ Container suvida-user-service        Removed                                                                     3.6s
+ ✔ Container suvida-redis               Removed                                                                     0.6s
+ ✔ Container suvida-frontend            Removed                                                                     0.5s
+ ✔ Container suvida-product-service     Removed                                                                     3.8s
+ ✔ Container suvida-cart-service        Removed                                                                     3.7s
+ ✔ Container suvida-payment-service     Removed                                                                     3.5s
+ ✔ Container suvida-order-service       Removed                                                                     3.7s
+ ✔ Container suvida-api-gateway         Removed                                                                     3.5s
+ ✔ Container suvida-postgres            Removed                                                                     0.4s
+ ✔ Container suvida-service-registry    Removed                                                                     0.4s
+ ✔ Network suvida_potato_suvida-network Removed                                                                     0.2s
+PS C:\Users\Sudheer\suvida_potato> docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+PS C:\Users\Sudheer\suvida_potato>
